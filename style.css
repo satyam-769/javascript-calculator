@@ -1,0 +1,46 @@
+.header {
+  border: 1px solid darkgrey;
+  width: 380px;
+  text-align: center;
+  padding: 4px;
+  background: beige;
+  box-shadow: 2px 2px 2px 0;
+}
+
+#calculator {
+  width: 380px;
+  height: 496px;
+  padding: 4px;
+  padding-bottom: 0px;
+  border: 2px solid black;
+}
+
+#display-container {
+  font-size: 2rem;
+  color: black;
+  width: 376px;
+  height: 20%;
+  text-align: end;
+  border: 2px solid black;
+}
+
+#display {
+  padding-right: 4px;
+}
+
+.button {
+  width: 88px;
+  height: 70px;
+  display: inline-block;
+  border: 2px solid black;
+  font-size: 1.8rem;
+  text-align: center;
+  display: inline-block;
+  background: darkgray;
+  color: white;
+  margin-top: 4px;
+}
+
+.btn-operand {
+  background: linear-gradient(45deg, black, transparent);
+}
